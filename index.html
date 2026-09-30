@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Markotee | Official Event Host & Master of Ceremonies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cinematic Cursor Spotlight Tracker -->
+    <div class="cursor-spotlight" id="cursorSpotlight"></div>
+
+    <!-- Floating Gold Dust Particles -->
+    <div class="particles-container" id="particlesContainer"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar glass-morph">
+        <div class="brand">
+            <img src="/images/WhatsApp Image 2026-09-29 at 03.18.27 (1).jpeg" alt="MC Markotee Logo" class="brand-logo-img">
+            <div class="brand-text">
+                <span class="brand-title">MC MARKOTEE</span>
+                <span class="brand-sub">Event It Successfully</span>
+            </div>
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#hero" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">The Brand</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#reviews" class="nav-link">Reviews</a>
+            <a href="#contact" class="nav-link cta-link">Book Now</a>
+        </nav>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- ================= HERO SECTION ================= -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <div class="hero-badge glass-panel">
+                    <span class="pulse-dot"></span> ELITE STAGE MASTER • EVENT IT SUCCESSFULLY 🎤
+                </div>
+
+                <h1 class="hero-title">
+                    Mastering The Stage, <br>
+                    <span class="gradient-headline">Defining The Luxury Moment.</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Transforming high-end weddings, VIP corporate galas, and elite red-carpet celebrations into legendary experiences with unmatched crowd control and charismatic presence.
+                </p>
+
+                <div class="hero-cta-group">
+                    <a href="#contact" class="btn-primary glow-gold">Secure Your Date ✨</a>
+                    <a href="#gallery" class="btn-secondary">Explore Live Gallery 📸</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Successful Events</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Crowd Energy</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>VIP</h3>
+                        <p>Standard Service</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Logo Showcase Card -->
+            <div class="hero-visual-card glass-panel tilt-card">
+                <div class="card-glow-border"></div>
+                <div class="visual-inner">
+                    <img src="/images/WhatsApp Image 2026-09-29 at 03.18.27 (1).jpeg " alt="MC Markotee Official Logo" class="main-logo-showcase">
+                    <div class="audio-wave-visualizer">
+                        <span></span><span></span><span></span><span></span><span></span>
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="live-status-pill">
+                        <span class="live-pulse"></span> LIVE STAGE READY
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= LUXURY MARQUEE ================= -->
+        <div class="brand-marquee">
+            <div class="marquee-track">
+                <span>✦ MC MARKOTEE</span>
+                <span>✦ EVENT IT SUCCESSFULLY</span>
+                <span>✦ LUXURY WEDDINGS</span>
+                <span>✦ CORPORATE GALAS</span>
+                <span>✦ RED CARPET HOSTING</span>
+                <span>✦ MC MARKOTEE</span>
+                <span>✦ EVENT IT SUCCESSFULLY</span>
+                <span>✦ LUXURY WEDDINGS</span>
+                <span>✦ CORPORATE GALAS</span>
+            </div>
+        </div>
+
+        <!-- ================= GALLERY SECTION ================= -->
+        <section class="gallery-section" id="gallery">
+            <div class="section-header">
+                <span class="section-tag">VISUAL ARCHIVE</span>
+                <h2>Captured <span class="gradient-headline">Stage Excellence</span></h2>
+                <p>Filter through live moments, elite weddings, and high-energy stage performances.</p>
+            </div>
+
+            <!-- Gallery Filters -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Moments 🌟</button>
+                <button class="filter-btn" data-filter="wedding">Weddings 💍</button>
+                <button class="filter-btn" data-filter="corporate">Corporate 📊</button>
+                <button class="filter-btn" data-filter="concert">Galas & Concerts 🔥</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-card glass-panel" data-category="concert" data-title="Elite Gala Stage Command" data-desc="Commanding prestige audiences with articulate delivery and pristine pacing.">
+                    <div class="gallery-card-img-placeholder">
+                        <span class="card-emoji">🎤</span>
+                        <div class="overlay-action">Click to Expand 🔍</div>
+                    </div>
+                    <div class="gallery-card-info">
+                        <span class="tag">Gala</span>
+                        <h4>Executive Stage Command</h4>
+                        <p>Live crowd interaction & prestige flow</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card glass-panel" data-category="wedding" data-title="Royal Wedding Reception" data-desc="Creating unforgettable bridal entrance moments and seamless program execution.">
+                    <div class="gallery-card-img-placeholder">
+                        <span class="card-emoji">💍</span>
+                        <div class="overlay-action">Click to Expand 🔍</div>
+                    </div>
+                    <div class="gallery-card-info">
+                        <span class="tag">Wedding</span>
+                        <h4>Luxury Reception Hosting</h4>
+                        <p>Elegance and flawless coordination</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card glass-panel" data-category="corporate" data-title="Executive Corporate Summit" data-desc="Professional, refined stage presence for annual awards and high-tier business dinners.">
+                    <div class="gallery-card-img-placeholder">
+                        <span class="card-emoji">📊</span>
+                        <div class="overlay-action">Click to Expand 🔍</div>
+                    </div>
+                    <div class="gallery-card-info">
+                        <span class="tag">Corporate</span>
+                        <h4>Annual Business Summit</h4>
+                        <p>Executive poise & strict timelines</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card glass-panel" data-category="concert" data-title="VIP Red Carpet Experience" data-desc="Turning high-profile celebrations and premier events into unforgettable milestones.">
+                    <div class="gallery-card-img-placeholder">
+                        <span class="card-emoji">✨</span>
+                        <div class="overlay-action">Click to Expand 🔍</div>
+                    </div>
+                    <div class="gallery-card-info">
+                        <span class="tag">Red Carpet</span>
+                        <h4>VIP Celebration Vibe</h4>
+                        <p>Unmatched energy & crowd synergy</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card glass-panel" data-category="wedding" data-title="Traditional Ceremony (Koito/Ruracio)" data-desc="Cultural richness paired with refined humor, warmth, and structured family engagement.">
+                    <div class="gallery-card-img-placeholder">
+                        <span class="card-emoji">🥂</span>
+                        <div class="overlay-action">Click to Expand 🔍</div>
+                    </div>
+                    <div class="gallery-card-info">
+                        <span class="tag">Wedding</span>
+                        <h4>Traditional Celebrations</h4>
+                        <p>Heritage, joy & elegant storytelling</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card glass-panel" data-category="corporate" data-title="Global Brand Product Launch" data-desc="Captivating investors and introducing major brand innovations with absolute charisma.">
+                    <div class="gallery-card-img-placeholder">
+                        <span class="card-emoji">🚀</span>
+                        <div class="overlay-action">Click to Expand 🔍</div>
+                    </div>
+                    <div class="gallery-card-info">
+                        <span class="tag">Corporate</span>
+                        <h4>Product Launch Stage</h4>
+                        <p>Brand activation & high engagement</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= SERVICES SECTION ================= -->
+        <section class="services-section" id="services">
+            <div class="section-header">
+                <span class="section-tag">EXPERTISE</span>
+                <h2>Tailored Hosting <span class="gradient-headline">Packages</span></h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card glass-panel">
+                    <div class="service-icon">💍</div>
+                    <h3>Luxury Weddings & Receptions</h3>
+                    <p>From the grand bridal entrance to the final celebratory toast, we keep your guests captivated and completely entertained.</p>
+                    <ul class="service-features">
+                        <li>✓ Full Program Direction</li>
+                        <li>✓ Warm & Elegant Crowd Engagement</li>
+                        <li>✓ Seamless DJ & Vendor Coordination</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-panel featured-service">
+                    <div class="popular-badge">SIGNATURE TIER</div>
+                    <div class="service-icon">⚡</div>
+                    <h3>Corporate Galas & Summits</h3>
+                    <p>Impeccably polished, articulate, and authoritative presentation style that elevates your corporate identity.</p>
+                    <ul class="service-features">
+                        <li>✓ Formal Award Ceremonies</li>
+                        <li>✓ VIP Brand Activations</li>
+                        <li>✓ Strict Minute-by-Minute Pacing</li>
+                    </ul>
+                </div>
+
+                <div class="service-card glass-panel">
+                    <div class="service-icon">🎙️</div>
+                    <h3>Concerts & Special Premieres</h3>
+                    <p>Electrifying stage charisma that commands large crowds, maintaining peak energy throughout the entire production.</p>
+                    <ul class="service-features">
+                        <li>✓ High-Impact Vocal Control</li>
+                        <li>✓ Dynamic Stage Presence</li>
+                        <li>✓ Audience Synergy & Hype</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= TESTIMONIALS ================= -->
+        <section class="reviews-section" id="reviews">
+            <div class="section-header">
+                <span class="section-tag">TESTIMONIALS</span>
+                <h2>What Elite <span class="gradient-headline">Hosts Say</span></h2>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card glass-panel">
+                    <div class="stars">★★★★★</div>
+                    <p>"MC Markotee brought supreme elegance and laughter to our wedding reception. Every single guest noted how professional and charismatic he was. Absolute perfection!"</p>
+                    <div class="reviewer-meta">
+                        <div class="avatar-ph">B</div>
+                        <div>
+                            <strong>Brian & Sandra</strong>
+                            <small>Wedding Reception Clients</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card glass-panel">
+                    <div class="stars">★★★★★</div>
+                    <p>"He hosted our corporate annual awards gala and commanded over 500 executives flawlessly. Not a single boring second. True mastery of the craft."</p>
+                    <div class="reviewer-meta">
+                        <div class="avatar-ph">K</div>
+                        <div>
+                            <strong>Apex Holdings Ltd</strong>
+                            <small>Corporate Gala Committee</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="contact-section" id="contact">
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2>Event It <span class="gradient-headline">Successfully.</span></h2>
+                    <p>Ready to lock in your date? Transmit your booking requirements directly through the secure portal and management will respond instantly.</p>
+                    
+                    <div class="contact-meta-list">
+                        <div class="meta-item">
+                            <span>📍</span> <strong>Base:</strong> Available Worldwide / Kenya
+                        </div>
+                        <div class="meta-item">
+                            <span>📞</span> <strong>Direct Line:</strong> WhatsApp & Calls Enabled
+                        </div>
+                        <div class="meta-item">
+                            <span>⚡</span> <strong>Motto:</strong> Event It Successfully
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="clientName">Your Name</label>
+                            <input type="text" id="clientName" placeholder="e.g. Cynthia Mwangi" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="clientPhone">Phone / WhatsApp</label>
+                            <input type="tel" id="clientPhone" placeholder="+254 700 000 000" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="eventType">Event Type</label>
+                            <select id="eventType" required>
+                                <option value="" disabled selected>Select event category...</option>
+                                <option value="Wedding">Wedding Reception 💍</option>
+                                <option value="Corporate">Corporate Gala 📊</option>
+                                <option value="Concert">Concert / Gala 🎙️</option>
+                                <option value="Other">Other Celebration ✨</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="eventDate">Event Date</label>
+                            <input type="date" id="eventDate" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="eventNotes">Event Details & Location</label>
+                        <textarea id="eventNotes" rows="4" placeholder="Tell us about your venue, guest size, and special requirements..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary glow-gold submit-btn">Transmit Booking Request 🚀</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= LIGHTBOX MODAL ================= -->
+    <div class="lightbox-modal" id="lightboxModal">
+        <div class="lightbox-content glass-panel">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <div class="lightbox-banner-icon" id="lightboxEmoji">🎤</div>
+            <h3 id="lightboxTitle">Stage Title</h3>
+            <p id="lightboxDesc">Detailed stage description goes here.</p>
+            <div class="lightbox-actions">
+                <a href="#contact" class="btn-primary glow-gold" id="lightboxBookBtn">Book For This Vibe ✨</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="brand">
+                <img src="/images/WhatsApp Image 2026-09-29 at 03.18.27 (1).jpeg" alt="MC Markotee Logo" class="brand-logo-img">
+                <span class="brand-title">MC MARKOTEE</span>
+            </div>
+            <p class="footer-motto">EVENT IT SUCCESSFULLY.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a> • <a href="#">TikTok</a> • <a href="#">WhatsApp</a> • <a href="#">YouTube</a>
+            </div>
+            <small>© 2026 MC Markotee. Developed with elite precision and luxury gold-and-black architecture.</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
